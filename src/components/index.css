@@ -1,0 +1,24 @@
+.task-form {
+    display: grid !important;
+    grid-gap: 30px;
+
+    .fields {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto auto;
+
+        .assigned-to {
+            min-width: 590px;
+        }
+
+        .status {
+            min-width: 620px;
+        }
+    }
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}

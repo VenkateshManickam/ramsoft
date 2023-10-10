@@ -1,0 +1,9 @@
+.home-container {
+    margin: 20px;
+
+    .new-user {
+        margin: 25px 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
